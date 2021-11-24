@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+Currently in-progress.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A vue.js project using vite, vue router and sass.
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+The project is a template website for photographers and the goal is to practise using Vue with Vite and becoming familiar with router.
