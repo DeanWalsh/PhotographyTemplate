@@ -22,3 +22,10 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+img {
+    width: 900px;
+    height: 500px;
+}
+</style>
