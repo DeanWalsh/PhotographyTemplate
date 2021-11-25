@@ -18,11 +18,11 @@ header {
 
 .nav-link {
     font-family: 'Ubuntu', sans-serif;
-    margin: 0 7vw;
-    font-size: 1.8em;
+    margin: 0 5vw;
+    font-size: 1.4vw;
     color: #f8f8f8;
     z-index: 1;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     font-weight: 900;
     border-bottom: 3px transparent solid;
     transition: border-color .3s ease-in-out;
@@ -72,7 +72,6 @@ footer a {
 
 .slider-container {
     display: grid;
-    scroll-snap-align: end;
 }
 
 .slider {
@@ -86,10 +85,10 @@ footer a {
     justify-self: center;
     align-self: center;
     z-index: 5;
-    font-size: 8em;
+    font-size: 5vw;
     color: #f8f8f8;
     padding: 2.5rem;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .slider-title h1 {
@@ -166,20 +165,20 @@ footer a {
 .about-wrapper {
     display: grid;
     grid-template-columns: auto 50vw;
-    width: 85vw;
+    width: 90vw;
     margin: auto;
-    padding: 6rem;
-    scroll-snap-align: start
+    padding: 3vh 3vw;
 }
 
 .about {
     grid-column: 2;
     display: grid;
-    grid-template-rows: 5% 5% 70% 20%;
+    grid-template-rows: 5vh 5vh 70vh 10vh;
     height: auto;
     color: #dfdfdf;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 2vw;
+    align-content: center;
 }
 
 .about-img {
@@ -198,8 +197,8 @@ footer a {
 .sub-title,
 .description,
 .about-footer {
-    letter-spacing: 2px;
-    line-height: 50px;
+    letter-spacing: .1vw;
+    line-height: 6vh;
     align-self: center;
 }
 
@@ -216,14 +215,14 @@ footer a {
 }
 
 .about .description {
-    padding: 1rem 10rem;
-    margin: 1rem auto;
+    padding: .6vh 4vw;
+    margin: .6vh auto;
     grid-column: 2;
     grid-row: 3;
 }
 
 .about-footer {
-    font-size: 1.6em;
+    font-size: 1vw;
     grid-column: 2;
     grid-row: 4;
 }
@@ -241,10 +240,9 @@ footer a {
 
 .gallery-wrapper {
     background-color: #263038;
-    padding: 5rem;
+    padding: 4vh 4vw;
     text-align: center;
     height: 100vh;
-    scroll-snap-align: start
 }
 
 .collage-container {
@@ -257,7 +255,7 @@ footer a {
 .collage-banner {
     display: grid;
     position: relative;
-    height: 70vh;
+    height: 65vh;
     border-bottom: 2px solid #263038;
     background-image: url(https://images.unsplash.com/photo-1554147090-e1221a04a025?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80);
     border-top-left-radius: 30px;
@@ -271,35 +269,21 @@ footer a {
     cursor: pointer;
 }
 
-@media (min-width: 1900px) {
-    .collage-click {
-        z-index: 50;
-        width: auto !important;
-        height: 65vh !important;
-        top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-        justify-self: center !important;
-        align-self: center !important;
-        position: relative !important;
-    }
-}
-@media (min-width: 1900px) {
-    .collageClick {
-        z-index: 50;
-        width: auto !important;
-        height: 65vh !important;
-        top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-        justify-self: center !important;
-        align-self: center !important;
-        position: relative !important;
-    }
+.collage-click {
+    z-index: 50;
+    width: auto !important;
+    height: 65vh !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    justify-self: center !important;
+    align-self: center !important;
+    position: relative !important;
 }
 
+
 .gallery {
-    padding: 4rem;
+    padding: 2vh 2vw;
 }
 
 /*Collage Images*/
@@ -361,11 +345,11 @@ footer a {
 .contact-wrapper {
     background-color: #f8f8f8;
     color: #0b0f12;
-    scroll-snap-align: start
+    height: calc(100vh - 10vh);
+    padding: 4vh;
 }
 
 .contact-container {
-    padding: 6vh 0;
     margin: auto;
     width: 85vw;
     display: grid;
@@ -386,4 +370,9 @@ footer a {
 
 .contact-content .btn {
     margin-top: 6vh;
+}
+
+.contact-image {
+    width: 40vw;
+    height: auto;
 }
