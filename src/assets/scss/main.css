@@ -443,5 +443,6 @@ footer a {
 .contact-image {
   width: 40vw;
   height: auto;
+  max-width: 900px;
 }
 /*# sourceMappingURL=main.css.map */
